@@ -1,0 +1,11 @@
+/* Media query para celus */
+@media (max-width: 600px) {
+    .tarjeta { width: 100%; }
+}
+
+/* Animacion cargando */
+@keyframes rotar {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+.boton-loader { animation: rotar 2s infinite linear; }
